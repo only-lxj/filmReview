@@ -1,0 +1,93 @@
+/* CSS Document */
+body,ul,li,img,a,h1{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-family:"微软雅黑";
+	list-style:none;
+	text-decoration:none;
+	background:#000;
+}
+#main{
+	margin:0 auto;
+	width:1000px;
+	position:relative;
+}
+#goldman{
+	position:absolute;
+	top:90px;
+	left:40px;
+	width:272px;
+	height:698px;
+}
+#oscers{
+	position:absolute;
+	top:80px;
+	left:410px;
+}
+#form{
+	position:absolute;
+	top:262px;
+	left:440px;
+	color:#898989;
+	font-size:18px;
+}
+#form input{
+	background:#000;
+	border:2px solid #898989;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:300px;
+	height:50px;
+	margin-top:25px;
+	color:#fff;
+	font-size:18px;
+	padding:0 10px;
+}
+#form input[type="radio"]{
+	font-size:18px;
+	width:14px;
+	height:14px;
+	background:#000;
+	margin-left:34px;
+}
+#form input[type="submit"]{
+	width:320px;
+	background:#898989;
+	color:#000;
+	font-size:24px;
+	cursor:pointer;
+}
+#error{
+	width:200px;
+	position:absolute;
+	left:790px;
+	color:red;
+	font-size:16px;
+}
+#error1{
+	position:absolute;
+	top:303px;
+	display:none;
+}
+#error2{
+	position:absolute;
+	top:360px;
+	display:none;
+}
+#error3{
+	position:absolute;
+	top:425px;
+	display:none;
+}
+#error4{
+	position:absolute;
+	top:503px;
+	display:none;
+}
+#error5{
+	position:absolute;
+	top:583px;
+	display:none;
+}
