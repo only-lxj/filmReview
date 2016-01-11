@@ -1,0 +1,161 @@
+body,ul,li,img,a,h1{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-family:"微软雅黑";
+	list-style:none;
+	text-decoration:none;
+}
+#header{
+	position:relative;
+}
+#banner{
+	width:100%;
+	z-index:0;
+}
+#nav{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:45px;
+	background-color:rgba(27,27,27,0.85);
+	z-index:1;
+}
+#nav>ul{
+	position:absolute;
+	left:17.8%;
+	width:27%;
+}
+#nav>ul li{
+	float:left;
+	width:25%;
+	text-align:center;
+	line-height:45px;
+}
+#nav>ul li a{
+	color:#898989;
+}
+#nav>ul li a:hover{
+	color:#fff;
+}
+#nav>ul .active{
+	background:url(../images/action.png) no-repeat center;	
+}
+#nav>ul .active a{
+	color:#fff;	
+}
+#info{
+	position:absolute;
+	top:0;
+	right:17%;
+	width:15%;
+	line-height:45px;
+	z-index:3;
+	text-align:center;
+	color:#898989;
+}
+#info a{
+	color:#898989;
+	margin-left:10px;
+}
+#username{
+	width:50px;
+	height:45px;
+}
+#login{
+	position:absolute;
+	top:0;
+	right:0;
+	width:100%;
+	line-height:45px;
+	z-index:2;
+	text-align:center;
+}
+#login span{
+	color:#898989;
+	margin:0 8%;
+}
+#login a{
+	color:#898989;
+}
+#login a:hover{
+	color:#fff;
+}
+#slide{
+	position:absolute;
+	top:32.5px;
+	right:20%;
+	width:130px;
+	background-color:rgba(27,27,27,0.85);
+	z-index:5;
+	display:none;
+}
+#slide li{
+	margin-left:10px;
+	width:110px;
+	height:43px;
+	text-align:center;
+}
+#slide li:first-child{
+	height:12.5px;
+}
+#slide li:nth-child(3){
+	border-bottom:1px solid #898989;
+	border-top:1px solid #898989;
+}
+#slide a{
+	color:#898989;
+	line-height:43px;
+	cursor:pointer;
+}
+#slide a:hover{
+	color:#fff;
+}
+#main{
+	margin:0 auto;
+	width:1000px;
+}
+#form{
+	margin:70px 0 0 108px;;
+}
+#form input{
+	height:30px;
+	width:288px;
+	margin-bottom:18px;
+	font-size:18px;
+}
+#form textarea{
+	width:657px;
+	height:435px;
+	font-size:18px;
+	resize:none;
+}
+#form table tr td:first-child{
+	float:right;
+	font-size:18px;
+}
+#form input[type="submit"]{
+	width:90px;
+	height:40px;
+	background:#fce775;
+	border:0;
+	cursor:pointer;
+	float:right;
+	margin-right:150px;
+}
+#form input[type="submit"]:hover{
+	background:#ffd83a;
+}
+#form input[type="button"]{
+	width:90px;
+	height:40px;
+	border:0;
+	cursor:pointer;
+	float:right;
+	margin-right:50px;
+	background:#fff;
+}
+#form input[type="button"]:hover{
+	border:1px solid #000;
+}
