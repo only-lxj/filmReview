@@ -1,0 +1,60 @@
+/* CSS Document */
+body,ul,li,img,a,h1{
+	margin:0;
+	padding:0;
+	font-size:16px;
+	font-family:"微软雅黑";
+	list-style:none;
+	text-decoration:none;
+	background:#000;
+	color:#fff;
+}
+#main{
+	margin:0 auto;
+	width:1000px;
+	position:relative;
+}
+#goldman{
+	position:absolute;
+	top:110px;
+	left:84px;
+	width:163px;
+	height:412px;
+}
+#oscers{
+	position:absolute;
+	top:95px;
+	left:368px;
+}
+#form{
+	position:absolute;
+	top:278px;
+	left:400px;
+}
+#form input{
+	background:#000;
+	border:2px solid #898989;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	width:300px;
+	height:50px;
+	margin-top:25px;
+	color:#fff;
+	font-size:18px;
+	padding:0 10px;
+}
+#form input[type="submit"]{
+	width:320px;
+	background:#898989;
+	color:#000;
+	font-size:24px;
+	cursor:pointer;
+}
+#error{
+	position:absolute;
+	top:520px;
+	left:506px;
+	font-size:18px;
+	color:#FF0000;
+}
